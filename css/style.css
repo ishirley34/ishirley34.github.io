@@ -496,6 +496,8 @@ h1 span{
 	-ms-transition: all 0.2s ease-in;
 	-o-transition: all 0.2s ease-in;
 	transition: all 0.2s ease-in;
+  /*Hiding this button for now*/
+  display: none;
 }
 
 .portfolio .portfolio-margin .read-more:hover{
