@@ -411,7 +411,7 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:8px solid #ebebeb;
-  background: url(../img/icons/minimalist.png) #f3f3f3 no-repeat center center;
+  background: url(../img/icons/Ian.png) #f3f3f3 no-repeat center center;
   -moz-border-radius:174px;
   -webkit-border-radius:174px;
   border-radius: 174px;
@@ -425,7 +425,7 @@ h1 span{
 }
 
 .about-me .column-two .circle-two:hover{
-  background: url(../img/icons/minimalist.png) #2fa68e no-repeat center center;
+  background: url(../img/icons/initial.png) #2fa68e no-repeat center center;
 }
 
 
@@ -442,7 +442,7 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:8px solid #ebebeb;
-  background: url(../img/icons/free.png) #f3f3f3 no-repeat center center;
+  background: url(../img/icons/minimalist.png) #f3f3f3 no-repeat center center;
   -moz-border-radius:174px;
   -webkit-border-radius:174px;
   border-radius: 174px;
@@ -456,7 +456,7 @@ h1 span{
 }
 
 .about-me .column-three .circle-three:hover{ 
-  background: url(../img/icons/free.png) #2fa68e no-repeat center center;
+  background: url(../img/icons/minimalist.png) #2fa68e no-repeat center center;
 }
 
 
