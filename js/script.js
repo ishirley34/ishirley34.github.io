@@ -41,9 +41,9 @@ jQuery(document).ready(function($){
 	var target = $(this).attr("href");
 			
 
-	// $('html, body').stop().animate({ scrollTop: $(target).offset().top-140 }, 1000, function() {
+	$('html, body').stop().animate({ scrollTop: $(target).offset().top-140 }, 1000, function() {
 
-	// });
+	});
 			
 	return false;
    });
