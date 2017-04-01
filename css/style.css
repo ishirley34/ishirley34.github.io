@@ -756,9 +756,20 @@ textarea{
   font-size:17px;
 }
 
-.contact .content .form .button:hover{
+.contact .content .form .button:hover #submit{
   color:white;
   background:#2fa68e;
+}
+
+#response {
+  margin-bottom: 20px;
+  text-align: center;
+}
+#response .success {
+  color: #2fa68e;
+}
+#response .failure {
+  color: #dc0000;
 }
 
 /* Footer */
@@ -811,4 +822,6 @@ textarea{
   padding-right:25px;
   color:#5f666e;
 }
+
+
 
