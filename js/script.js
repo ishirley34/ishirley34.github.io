@@ -41,8 +41,7 @@ jQuery(document).ready(function($){
 	var target = $(this).attr("href");
 			
 
-	// $('html, body').stop().animate({ scrollTop: $(target).offset().top }, 1000, function() {
-  $('html, body').stop().animate({ scrollTop: $(target).offset() }, 1000, function() {
+	$('html, body').stop().animate({ scrollTop: $(target).offset().top }, 1000, function() {
 
 	});
 			
