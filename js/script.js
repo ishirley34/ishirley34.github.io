@@ -28,7 +28,8 @@ jQuery(document).ready(function($){
   // Menu Scroll to content and Active menu
   var lastId,
     topMenu = $("#menu"),
-    topMenuHeight = topMenu.outerHeight()+105,
+    // topMenuHeight = topMenu.outerHeight()+105,
+    topMenuHeight = topMenu.outerHeight(),
     menuItems = topMenu.find("a"),
     scrollItems = menuItems.map(function(){
       var item = $($(this).attr("href"));
