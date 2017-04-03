@@ -42,7 +42,7 @@ jQuery(document).ready(function($){
 			
 
 	// $('html, body').stop().animate({ scrollTop: $(target).offset().top }, 1000, function() {
-  $('html, body').animate({ scrollTop: $(target).offset().top }, 1000, function() {
+  $('html, body').stop().animate({ scrollTop: $(target).offset() }, 1000, function() {
 
 	});
 			
