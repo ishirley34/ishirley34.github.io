@@ -28,8 +28,7 @@ jQuery(document).ready(function($){
   // Menu Scroll to content and Active menu
   var lastId,
     topMenu = $("#menu"),
-    // topMenuHeight = topMenu.outerHeight()+105,
-    topMenuHeight = topMenu.outerHeight(),
+    topMenuHeight = topMenu.outerHeight()+105,
     menuItems = topMenu.find("a"),
     scrollItems = menuItems.map(function(){
       var item = $($(this).attr("href"));
@@ -42,7 +41,8 @@ jQuery(document).ready(function($){
 	var target = $(this).attr("href");
 			
 
-	$('html, body').stop().animate({ scrollTop: $(target).offset().top }, 1000, function() {
+	// $('html, body').stop().animate({ scrollTop: $(target).offset().top }, 1000, function() {
+  $('html, body').stop().animate({ scrollTop: $(target).offset().top }, function() {
 
 	});
 			
