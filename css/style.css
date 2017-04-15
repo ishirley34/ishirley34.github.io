@@ -411,7 +411,7 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:8px solid #ebebeb;
-  background: url(../img/icons/Ian.png) #f3f3f3 no-repeat center center;
+  background: url(../img/icons/Ian-1.png) #f3f3f3 no-repeat center center;
   -moz-border-radius:174px;
   -webkit-border-radius:174px;
   border-radius: 174px;
@@ -756,9 +756,20 @@ textarea{
   font-size:17px;
 }
 
-.contact .content .form .button:hover{
+.contact .content .form .button:hover #submit{
   color:white;
   background:#2fa68e;
+}
+
+#response {
+  margin-bottom: 20px;
+  text-align: center;
+}
+#response .success {
+  color: #2fa68e;
+}
+#response .failure {
+  color: #dc0000;
 }
 
 /* Footer */
@@ -811,4 +822,6 @@ textarea{
   padding-right:25px;
   color:#5f666e;
 }
+
+
 

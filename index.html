@@ -18,14 +18,14 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link rel="stylesheet" type="text/css" href="css/style-responsive.css" />				
     <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="/img/favicons/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/img/favicons/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="/img/favicons/manifest.json">
-    <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="/img/favicons/favicon.ico">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="img/favicons/manifest.json">
+    <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico">
     <meta name="apple-mobile-web-app-title" content="Ian Shirley">
     <meta name="application-name" content="Ian Shirley">
-    <meta name="msapplication-config" content="/img/favicons/browserconfig.xml">
+    <meta name="msapplication-config" content="img/favicons/browserconfig.xml">
     <meta name="theme-color" content="#0e3286">
 </head>
 
@@ -42,10 +42,11 @@
       <div class="content">
         <div class="text">
         
-          <h1>Ian Shirley<br/>
-          Full Stack <span>Developer</span></h1>
-          <p>"Surely you can't be serious..." </br></br>
-          Welcome! Below you will find more information on me including projects that I've worked on and how to get in touch.</p>
+          <h1>Ian <span>Shirley</span><br/>
+          Developer</h1>
+          <p>"Surely you can't be serious..." 
+          <!--Welcome! Below you will find more information on me including projects that I've worked on and how to get in touch.-->
+          </p>
           
           <a href="#about-me"><div class="read-more">Read more</div></a>
           
@@ -321,48 +322,49 @@
     <!-- Contact-->
 
     <section class="contact" id="contact">
-        <h1>Contact</h1>
-        <hr/>       
+        <!--<h1>Contact</h1>-->
+        <!--<hr/>       -->
       
-        <div class="content">
+        <!--<div class="content">-->
           
-          <div class="form">
+          <!--<div class="form">-->
           
-            <form action="#" method="post" enctype="text/plain">
+            <!--<form id="contactform" action="processForm.php" method="post">-->
           
-            <input name="your-name" id="your-name" value="YOUR NAME" />
-            <input name="your-email" id="your-email" value="YOUR E-MAIL" />
+            <!--<input name="name" id="name" placeholder="YOUR NAME" />-->
+            <!--<input name="email" id="email" placeholder="YOUR E-MAIL" />-->
           
-            <textarea id="message" name="message" >MESSAGE</textarea>
+            <!--<textarea id="message" name="message" placeholder="MESSAGE"></textarea>-->
  
-            <a href="#">
-              <div class="button">
-                <span>SEND</span>
-              </div>
-            </a> 
+            <!--<a href="#">-->
+              <!--<div class="button">-->
+                <!--<span>SEND</span>-->
+              <!--</div>-->
+            <!--</a> -->
+            <!--<input type="submit" name="button" value="SEND" class="button">-->
  
-            </form>
+            <!--</form>-->
+          <!--<div id="response"></div>-->
+          <!--</div>-->
           
-          </div>
           
+          <!--<div class="contact-text">-->
           
-          <div class="contact-text">
-          
-          To contact me please use the contact form here<br/><br/>
+          <!--To contact me please use the contact form here<br/><br/>-->
 
-          I look forward to hearing from you.<br/>
-          Any comments and questions are welcome.<br/><br/>
-          Feel free to send me a message.<br/><br/>
+          <!--I look forward to hearing from you.<br/>-->
+          <!--Any comments and questions are welcome.<br/><br/>-->
+          <!--Feel free to send me a message.<br/><br/>-->
 
-          <strong>-Ian Shirley</strong><br/><br/>
+          <!--<strong>-Ian Shirley</strong><br/><br/>-->
 
           <!--Linkedin: <strong>placeholder</strong>
           Github: <strong>placeholder</strong>-->
           
-          </div>
+          <!--</div>-->
         
         
-        </div>
+        <!--</div>-->
       
     </section>
 
@@ -399,6 +401,8 @@
 	<script src="js/jquery.nicescroll.js"></script> <!-- jQuery NiceScroll -->
 	<script src="js/jquery.sticky.js"></script> <!-- jQuery Stick Menu -->
 	<script src="js/script.js"></script> <!-- All script -->
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script> <!-- jQuery validator -->
+  <!--<script type="text/javascript" src="js/contact.js"></script>  Contact form functionality -->
   <!--Google analytics-->
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
