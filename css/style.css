@@ -735,6 +735,7 @@ textarea{
   width:142px;
   height:34px;
   float:right;
+  padding-right: 32px;
   margin:0;
   background:#23282d;
   border:0;
@@ -754,6 +755,10 @@ textarea{
   font-weight:bold;
   line-height:34px;
   font-size:17px;
+}
+
+.button{
+  line-height:30px;
 }
 
 .contact .content .form .button:hover #submit{
