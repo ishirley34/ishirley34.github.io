@@ -828,5 +828,64 @@ textarea{
   color:#5f666e;
 }
 
+/* --- Solicitation Terms Page Styles --- */
+.solicitation-box {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 32px 24px;
+  border-top: 6px solid #e53935;
+}
+.solicitation-box h1 {
+  color: #e53935;
+  font-size: 1.6em;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.solicitation-box ul {
+  margin: 16px 0 24px 24px;
+}
+.solicitation-box li {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  color: #23282d;
+}
+.solicitation-warning {
+  background: #ffeaea;
+  border: 1px solid #e53935;
+  color: #b71c1c;
+  padding: 14px 18px;
+  border-radius: 6px;
+  margin: 20px 0 10px 0;
+  font-weight: bold;
+}
+.solicitation-footer {
+  font-size: 0.95em;
+  color: #888;
+  margin-top: 18px;
+}
+.solicitation-btn {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 10px 22px;
+  background: #0e3286;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+.solicitation-btn:hover {
+  background: #2546a6;
+}
+.solicitation-icon {
+  color: #e53935;
+  font-size: 1.3em;
+}
+
 
 
