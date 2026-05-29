@@ -87,15 +87,20 @@ h1 {
 
 .footer .margin {
   width:300px;
+  flex-wrap:wrap;
+  justify-content:center;
+  padding: 15px 0;
 }
 
 .footer .margin .copyright {
-  width:280px;
+  width:100%;
   text-align:center;
+  padding-right:0;
 }
 
 .footer .margin .menu-footer{
-  width:300px;
+  flex-wrap:wrap;
+  justify-content:center;
 }
 
 .footer .margin .menu-footer a{
@@ -195,15 +200,20 @@ h1 {
 
 .footer .margin {
   width:300px;
+  flex-wrap:wrap;
+  justify-content:center;
+  padding: 15px 0;
 }
 
 .footer .margin .copyright {
-  width:300px;
+  width:100%;
   text-align:center;
+  padding-right:0;
 }
 
 .footer .margin .menu-footer{
-  width:320px;
+  flex-wrap:wrap;
+  justify-content:center;
 }
 
 }
@@ -259,12 +269,12 @@ h1 {
   width:700px;
 }
 
-.footer .margin .menu-footer {
-  width:350px;
+.footer .margin .menu-footer a {
+  padding-right:12px;
 }
 
 .footer .margin .copyright {
-  width:320px;
+  padding-right:0;
 }
 .footer .margin {
   width:700px;
