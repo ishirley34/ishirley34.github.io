@@ -411,7 +411,8 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:8px solid #ebebeb;
-  background: url(../img/icons/Ian-1.png) #f3f3f3 no-repeat center center;
+  background: url('https://github.com/user-attachments/assets/a2345175-b7d7-410f-8e5f-af2652112a66') #f3f3f3 no-repeat center center;
+  background-size: cover;
   -moz-border-radius:174px;
   -webkit-border-radius:174px;
   border-radius: 174px;
@@ -425,7 +426,8 @@ h1 span{
 }
 
 .about-me .column-two .circle-two:hover{
-  background: url(../img/icons/initial.png) #2fa68e no-repeat center center;
+  background: url('https://github.com/user-attachments/assets/a2345175-b7d7-410f-8e5f-af2652112a66') #2fa68e no-repeat center center;
+  background-size: cover;
 }
 
 
